@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.clock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.analog-clock {
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.ho{
+    position: absolute;
+    width: 20%;
+    height: 1px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg);
+}
+.mi{
+    position: absolute;
+    width: 30%;
+    height: 1.5px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg);
+}
+.se{
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    background: black;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg);
+}
+
+#digital-clock {
+    margin-top: 20px;
+    font-size: 24px;
+}
